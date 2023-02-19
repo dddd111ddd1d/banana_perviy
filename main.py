@@ -7,13 +7,11 @@ class Person:
   
   #це конструктор
   #  ця вункція запускається при створенні
-  
-def __init__(self, surname):
+  def __init__(self, surname):
     self.surname = surname
     print(self.Zakhar)
       
-    
-def do_my_thing(self):
+  def do_my_thing(self):
     print("I love", self.hobby)
   
     
@@ -24,7 +22,7 @@ me = Person("Rubish")
 me.hobby = "banana"
 me.do_my_thing()
   
-my_friend = Person("olegrix")
+my_friend1 = Person("olegrix")
 
-my_friend.hobby = "самакат"
+my_friend1.hobby = "самакат"
   
